@@ -40,7 +40,7 @@ int main()
 
     std::cout << "If this project compiles and runs, you're ready for the Triplebyte interview!" << std::endl;
 
-    std::thread t (&crawl_url, "https://www.example.com");
+    std::thread t (&crawl_url, "https://www.google.com");
 
     t.join();
 
